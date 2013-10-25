@@ -1,0 +1,8 @@
+{
+	"success": false,
+	"error": {
+		"code": 500,
+		"message": "Error Message from Mock Response"
+	},
+	"data": null
+}

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f6f7f8">
+
+    <LinearLayout
+        android:id="@+id/swipelist_backview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:gravity="center|right"
+        android:paddingLeft="10dip"
+        android:paddingRight="20dip"
+        android:paddingTop="20dip"
+        android:paddingBottom="20dip"
+        android:orientation="horizontal"
+        android:tag="back" >
+
+        <ImageView
+            android:id="@+id/shareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/share_button" />
+
+        <ImageView
+            android:id="@+id/fbShareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/fb_share_button" />
+
+        <ImageView
+            android:id="@+id/twitterShareButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:src="@drawable/twitter_share_button" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/swipelist_frontview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#f6f7f8"
+        android:paddingTop="20dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingBottom="20dip"
+        android:orientation="vertical"
+        android:tag="front" >
+
+        <ImageView
+            android:id="@+id/toonImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/toon1" />
+
+        <TextView
+            android:id="@+id/excuseText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_toRightOf="@+id/toonImage"
+            android:maxLines="2"
+            android:singleLine="false"
+            android:text="@+id/excuseText"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+</FrameLayout>

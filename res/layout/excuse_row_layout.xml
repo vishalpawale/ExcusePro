@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipelist_frontview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="2.5dip"
+    android:paddingTop="2.5dip"
+    android:tag="front" >
+
+    <ImageView
+        android:id="@+id/toonImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/toon1" />
+
+    <TextView
+        android:id="@+id/excuseText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dip"
+        android:layout_toRightOf="@+id/toonImage"
+        android:maxLines="2"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceListItem" />
+
+</RelativeLayout>

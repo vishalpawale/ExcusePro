@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Excuse Pro</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="server_url">http://www.server.com</string>
+    <string name="api_key">API Key</string>
+    <string name="app_id">Facebook App Id</string>
+
+    <item name="isMockEnabled" format="boolean" type="bool">false</item>
+    <item name="isDebugEnabled" format="boolean" type="bool">false</item>
+
+    <string name="post_description">We all love making excuses, so, here is an android application which will help you to get out of trouble next time when you are late at work, late for college lectures, caught cheating on your girlfriend/boyfriend, etc (Beware! They might push you into trouble too). Just go ahead and download our free application and start having fun making Excuses.</string>
+
+</resources>
